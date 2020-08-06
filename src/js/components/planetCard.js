@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 export const PlanetCard = props => {
 	return (
-		// const randomPic= img
 		<div className="container">
 			<div
 				className="card"
