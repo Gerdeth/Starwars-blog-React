@@ -1,30 +1,24 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-export const Card = props => {
+export const PlanetCard = props => {
 	return (
+		// const randomPic= img
 		<div className="container">
 			<div
 				className="card"
 				style={{ width: "18rem", marginBottom: "5px" }}>
 				<img src={props.imageSrc} className="card-img-top" alt="..." />
 				<div className="card-body">
-					<p className="card-text">Name: {props.character.name}</p>
+					<p className="card-text">Name: {props.hPlanet.name}</p>
 					<p className="card-text">
-						Height: {props.character.height}
-					</p>
-					<p className="card-text">Mass: {props.character.mass}</p>
-					<p className="card-text">
-						Eye Color: {props.character.eye_color}
+						Rotation Period: {props.hPlanet.rotation_period}
 					</p>
 					<p className="card-text">
-						Skin Color: {props.character.skin_color}
+						Climate: {props.hPlanet.climate}
 					</p>
 					<p className="card-text">
-						Hair Color: {props.character.hair_color}
-					</p>
-					<p className="card-text">
-						Gender: {props.character.gender}
+						Population: {props.hPlanet.population}
 					</p>
 					<a href="#" className="btn btn-primary">
 						Go somewhere
@@ -34,7 +28,7 @@ export const Card = props => {
 		</div>
 	);
 };
-Card.propTypes = {
-	character: PropTypes.object,
+PlanetCard.propTypes = {
+	hPlanet: PropTypes.object,
 	imageSrc: PropTypes.string
 };

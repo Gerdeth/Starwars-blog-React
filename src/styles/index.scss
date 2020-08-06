@@ -13,11 +13,20 @@ li{
     color: gray;
     margin-left: 10px;
 }
-// .searchButton{
-//     border:none;
-//     box-sizing:none;
-   
-// }
+
 .navSearch{
-    display:inline;
+    display:flex;
+}
+.viewChoice{
+    display: block;
+}
+.cardsdisplay{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.planetdisplay{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

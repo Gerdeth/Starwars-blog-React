@@ -10,6 +10,7 @@ import "../styles/index.scss";
 
 //import your own components
 import { Home } from "./views/home.js";
+import { PlanetHome } from "./views/planetHome.js";
 
 //render your react application
 ReactDOM.render(<Home />, document.querySelector("#app"));

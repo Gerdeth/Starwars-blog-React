@@ -48,6 +48,11 @@ const Navbar = () => {
 					</button>
 				</form>
 			</nav>
+			<ul className="viewChoice">
+				<li>Home</li>
+				<li>Planets</li>
+				<li>Characters</li>
+			</ul>
 		</div>
 	);
 };
